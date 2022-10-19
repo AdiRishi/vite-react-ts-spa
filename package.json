@@ -1,6 +1,10 @@
 {
   "name": "vite-react-ts-spa",
-  "author": {"email": "adiswa123@gmail.com", "name": "Adishwar Rishi", "url": "https://github.com/AdiRishi"},
+  "author": {
+    "email": "adiswa123@gmail.com",
+    "name": "Adishwar Rishi",
+    "url": "https://github.com/AdiRishi"
+  },
   "license": "MIT",
   "version": "0.0.0",
   "type": "module",
@@ -19,5 +23,6 @@
     "@vitejs/plugin-react": "^2.1.0",
     "typescript": "^4.8.4",
     "vite": "^3.1.8"
-  }
+  },
+  "packageManager": "yarn@3.2.4"
 }
