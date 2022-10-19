@@ -1,6 +1,7 @@
 {
-  "name": "react-ts",
-  "private": true,
+  "name": "vite-react-ts-spa",
+  "author": {"email": "adiswa123@gmail.com", "name": "Adishwar Rishi", "url": "https://github.com/AdiRishi"},
+  "license": "MIT",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
