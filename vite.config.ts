@@ -1,3 +1,6 @@
+/// <reference types="vitest" />
+/// <reference types="vite/client" />
+
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import legacy from '@vitejs/plugin-legacy';
@@ -11,4 +14,10 @@ export default defineConfig({
     legacy({ targets: ['defaults'] }),
     visualizer({ emitFile: true, gzipSize: true }),
   ],
+  // https://vitest.dev/config/
+  test: {
+    globals: true,
+    environment: 'jsdom',
+    setupFiles: ['./src/setupTests.ts'],
+  },
 });

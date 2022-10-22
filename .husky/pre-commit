@@ -3,3 +3,4 @@
 
 # Add hooks here
 yarn lint
+yarn vitest run
