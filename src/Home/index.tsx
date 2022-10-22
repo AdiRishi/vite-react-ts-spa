@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     <div className="flex justify-center h-screen w-screen items-center text-center">
-      <div className="flex flex-col w-4/6 h-4/6">
+      <div className="flex flex-col w-5/6 h-5/6 sm:w-4/6 sm:h-4/6">
         <div className="grid grid-cols-2 justify-items-center">
           <a
             className="justify-self-end p-5 mr-5"
@@ -34,11 +34,11 @@ export default function Home() {
               alt="React logo"
             />
           </a>
-          <h1 className="col-span-2 text-6xl leading-loose m-5 font-medium">Vite + React</h1>
+          <h1 className="col-span-2 text-5xl leading-10 my-10 font-medium">Vite + React</h1>
         </div>
         <div className="mb-10">
           <button
-            className="font-mono rounded-lg bg-neutral-900 p-3 mb-3"
+            className="font-mono rounded-lg bg-neutral-900 p-3 mb-10"
             onClick={handleCountClick}
           >
             count is {count}
