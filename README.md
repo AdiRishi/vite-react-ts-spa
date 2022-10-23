@@ -57,7 +57,7 @@ Often times react hooks are not enough and these values need to be globally acce
 
 **State Synchronization**
 
-State synchronization is the process involved with querying and mutating data that typically lives on a server / database. State synchronization.
+State synchronization is the process involved with querying and mutating data that typically lives on a server / database.
 
 Back in the day this process was typically done with the help of Redux. Developers would write actions, reducers and side effects to query/mutate server data. This is an anti-pattern and results in a huge amount of boilerplate code even for simple tasks.
 
