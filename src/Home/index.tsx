@@ -7,11 +7,11 @@ export default function Home() {
   const handleCountClick = useCallback(() => setCount((c) => c + 1), []);
 
   return (
-    <div className="flex justify-center h-screen w-screen items-center text-center">
-      <div className="flex flex-col w-5/6 h-5/6 sm:w-4/6 sm:h-4/6">
+    <div className="flex h-screen w-screen items-center justify-center text-center">
+      <div className="flex h-5/6 w-5/6 flex-col sm:h-4/6 sm:w-4/6">
         <div className="grid grid-cols-2 justify-items-center">
           <a
-            className="justify-self-end p-5 mr-5"
+            className="mr-5 justify-self-end p-5"
             href="https://vitejs.dev"
             target="_blank"
             rel="noreferrer"
@@ -29,16 +29,16 @@ export default function Home() {
             rel="noreferrer"
           >
             <img
-              className={`${styles.logo} hover:drop-shadow-[0_0_2em_rgba(97,218,251,0.67)] animate-spin-react`}
+              className={`${styles.logo} animate-spin-react hover:drop-shadow-[0_0_2em_rgba(97,218,251,0.67)]`}
               src={reactLogo}
               alt="React logo"
             />
           </a>
-          <h1 className="col-span-2 text-5xl leading-10 my-10 font-medium">Vite + React</h1>
+          <h1 className="col-span-2 my-10 text-5xl font-medium leading-10">Vite + React</h1>
         </div>
         <div className="mb-10">
           <button
-            className="font-mono rounded-lg bg-neutral-900 p-3 mb-10"
+            className="mb-10 rounded-lg bg-neutral-900 p-3 font-mono"
             onClick={handleCountClick}
           >
             count is {count}
@@ -47,7 +47,7 @@ export default function Home() {
             Edit <code>src/App.tsx</code> and save to test HMR
           </p>
         </div>
-        <p className="text-slate-400 text-base">Click on the Vite and React logos to learn more</p>
+        <p className="text-base text-slate-400">Click on the Vite and React logos to learn more</p>
       </div>
     </div>
   );
