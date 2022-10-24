@@ -15,6 +15,7 @@ An opinionated vite starter template for production ready Single Page Apps
 - [Prettier](https://prettier.io/) code formatter
 - Pre-configured [Tailwind CSS](https://tailwindcss.com/)
 - Unit testing with [Vitest](https://vitest.dev/) and [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
+- Pre-configured [web vitals](https://github.com/GoogleChrome/web-vitals)
 
 ## Getting Started
 

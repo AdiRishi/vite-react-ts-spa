@@ -1,5 +1,6 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
+import reportWebVitals from './utilities/reportWebVitals';
 import AppRoot from './AppRoot';
 import './index.css';
 
@@ -16,3 +17,11 @@ export function main() {
 }
 
 main();
+
+/**
+ * If you want to start measuring performance in your app pass a function to log results.
+ * You can read more at https://github.com/GoogleChrome/web-vitals#readme
+ *
+ * Example: reportWebVitals(console.log)
+ */
+void reportWebVitals();
