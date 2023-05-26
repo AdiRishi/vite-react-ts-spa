@@ -2,20 +2,25 @@ import { vi } from 'vitest';
 import { onCLS, onFCP, onFID, onINP, onLCP, onTTFB } from 'web-vitals';
 import reportWebVitals from './reportWebVitals';
 
+vi.mock('web-vitals', async (importActual) => {
+  const actual = await importActual<typeof import('web-vitals')>();
+  return {
+    ...actual,
+    onCLS: vi.fn(),
+    onFCP: vi.fn(),
+    onFID: vi.fn(),
+    onINP: vi.fn(),
+    onLCP: vi.fn(),
+    onTTFB: vi.fn(),
+  };
+});
+
 describe('reportWebVitals.test.ts', () => {
   const reportHandler = console.log;
   const reportOptions = undefined;
 
-  beforeAll(() => {
-    vi.mock('web-vitals');
-  });
-
-  afterAll(() => {
-    vi.unmock('web-vitals');
-  });
-
   afterEach(() => {
-    vi.restoreAllMocks();
+    vi.clearAllMocks();
   });
 
   it('should not call anyWebVitals if a report handler was not passed in', async () => {
