@@ -49,7 +49,7 @@
     "husky": "^8.0.3",
     "jsdom": "^22.1.0",
     "pinst": "^3.0.0",
-    "postcss": "^8.4.26",
+    "postcss": "^8.4.27",
     "prettier": "^3.0.0",
     "prettier-plugin-tailwindcss": "^0.4.1",
     "rollup-plugin-visualizer": "^5.9.2",
