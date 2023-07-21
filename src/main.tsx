@@ -8,7 +8,7 @@ import './index.css';
 export function main() {
   const rootDiv = document.getElementById('root');
   if (rootDiv) {
-    createRoot(document.getElementById('root') as HTMLElement).render(
+    createRoot(rootDiv).render(
       <StrictMode>
         <AppRoot />
       </StrictMode>
