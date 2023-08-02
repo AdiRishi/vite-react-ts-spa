@@ -21,7 +21,7 @@ export default defineConfig({
     setupFiles: ['./src/setupTests.ts'],
     coverage: {
       all: true,
-      provider: 'c8',
+      provider: 'v8',
       include: ['src'],
     },
   },
