@@ -4,6 +4,7 @@
     "module": "ESNext",
     "moduleResolution": "Node",
     "allowSyntheticDefaultImports": true,
+    "types": ["vitest/globals"],
     "strict": true
   },
   "include": ["vite.config.ts", "postcss.config.cjs", "tailwind.config.cjs"]

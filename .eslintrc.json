@@ -31,5 +31,7 @@
     },
     "project": ["./tsconfig.json", "./tsconfig.node.json"]
   },
-  "rules": {}
+  "rules": {
+    "testing-library/no-await-sync-events": ["error", { "eventModules": ["fire-event"] }]
+  }
 }
