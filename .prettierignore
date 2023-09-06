@@ -4,3 +4,4 @@ dist
 .husky
 .vscode
 coverage
+pnpm-lock.yaml
