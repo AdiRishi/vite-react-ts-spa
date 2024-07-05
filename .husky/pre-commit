@@ -2,5 +2,5 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 # Add hooks here
-yarn lint
-yarn vitest run
+pnpm lint
+pnpm vitest run
