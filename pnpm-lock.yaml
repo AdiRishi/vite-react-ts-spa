@@ -47,10 +47,10 @@ importers:
         version: 8.6.0(eslint@8.57.1)(typescript@5.6.2)
       '@vitejs/plugin-legacy':
         specifier: ^5.4.2
-        version: 5.4.2(terser@5.32.0)(vite@5.4.5(terser@5.32.0))
+        version: 5.4.2(terser@5.32.0)(vite@5.4.6(terser@5.32.0))
       '@vitejs/plugin-react-swc':
         specifier: ^3.7.0
-        version: 3.7.0(vite@5.4.5(terser@5.32.0))
+        version: 3.7.0(vite@5.4.6(terser@5.32.0))
       '@vitest/coverage-v8':
         specifier: ^2.1.1
         version: 2.1.1(vitest@2.1.1(@vitest/ui@2.1.1)(jsdom@25.0.0)(terser@5.32.0))
@@ -109,8 +109,8 @@ importers:
         specifier: ^5.6.2
         version: 5.6.2
       vite:
-        specifier: ^5.4.5
-        version: 5.4.5(terser@5.32.0)
+        specifier: ^5.4.6
+        version: 5.4.6(terser@5.32.0)
       vitest:
         specifier: ^2.1.1
         version: 2.1.1(@vitest/ui@2.1.1)(jsdom@25.0.0)(terser@5.32.0)
@@ -3011,8 +3011,8 @@ packages:
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
 
-  vite@5.4.5:
-    resolution: {integrity: sha512-pXqR0qtb2bTwLkev4SE3r4abCNioP3GkjvIDLlzziPpXtHgiJIjuKl+1GN6ESOT3wMjG3JTeARopj2SwYaHTOA==}
+  vite@5.4.6:
+    resolution: {integrity: sha512-IeL5f8OO5nylsgzd9tq4qD2QqI0k2CQLGrWD0rCN0EQJZpBK5vJAx0I+GDkMOXxQX/OfFHMuLIx6ddAxGX/k+Q==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -4483,7 +4483,7 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@vitejs/plugin-legacy@5.4.2(terser@5.32.0)(vite@5.4.5(terser@5.32.0))':
+  '@vitejs/plugin-legacy@5.4.2(terser@5.32.0)(vite@5.4.6(terser@5.32.0))':
     dependencies:
       '@babel/core': 7.25.2
       '@babel/preset-env': 7.25.3(@babel/core@7.25.2)
@@ -4494,14 +4494,14 @@ snapshots:
       regenerator-runtime: 0.14.1
       systemjs: 6.15.1
       terser: 5.32.0
-      vite: 5.4.5(terser@5.32.0)
+      vite: 5.4.6(terser@5.32.0)
     transitivePeerDependencies:
       - supports-color
 
-  '@vitejs/plugin-react-swc@3.7.0(vite@5.4.5(terser@5.32.0))':
+  '@vitejs/plugin-react-swc@3.7.0(vite@5.4.6(terser@5.32.0))':
     dependencies:
       '@swc/core': 1.6.13
-      vite: 5.4.5(terser@5.32.0)
+      vite: 5.4.6(terser@5.32.0)
     transitivePeerDependencies:
       - '@swc/helpers'
 
@@ -4530,13 +4530,13 @@ snapshots:
       chai: 5.1.1
       tinyrainbow: 1.2.0
 
-  '@vitest/mocker@2.1.1(@vitest/spy@2.1.1)(vite@5.4.5(terser@5.32.0))':
+  '@vitest/mocker@2.1.1(@vitest/spy@2.1.1)(vite@5.4.6(terser@5.32.0))':
     dependencies:
       '@vitest/spy': 2.1.1
       estree-walker: 3.0.3
       magic-string: 0.30.11
     optionalDependencies:
-      vite: 5.4.5(terser@5.32.0)
+      vite: 5.4.6(terser@5.32.0)
 
   '@vitest/pretty-format@2.1.1':
     dependencies:
@@ -6375,7 +6375,7 @@ snapshots:
       cac: 6.7.14
       debug: 4.3.7
       pathe: 1.1.2
-      vite: 5.4.5(terser@5.32.0)
+      vite: 5.4.6(terser@5.32.0)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -6387,7 +6387,7 @@ snapshots:
       - supports-color
       - terser
 
-  vite@5.4.5(terser@5.32.0):
+  vite@5.4.6(terser@5.32.0):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.47
@@ -6399,7 +6399,7 @@ snapshots:
   vitest@2.1.1(@vitest/ui@2.1.1)(jsdom@25.0.0)(terser@5.32.0):
     dependencies:
       '@vitest/expect': 2.1.1
-      '@vitest/mocker': 2.1.1(@vitest/spy@2.1.1)(vite@5.4.5(terser@5.32.0))
+      '@vitest/mocker': 2.1.1(@vitest/spy@2.1.1)(vite@5.4.6(terser@5.32.0))
       '@vitest/pretty-format': 2.1.1
       '@vitest/runner': 2.1.1
       '@vitest/snapshot': 2.1.1
@@ -6414,7 +6414,7 @@ snapshots:
       tinyexec: 0.3.0
       tinypool: 1.0.0
       tinyrainbow: 1.2.0
-      vite: 5.4.5(terser@5.32.0)
+      vite: 5.4.6(terser@5.32.0)
       vite-node: 2.1.1(terser@5.32.0)
       why-is-node-running: 2.3.0
     optionalDependencies:
