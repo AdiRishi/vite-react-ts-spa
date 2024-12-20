@@ -47,10 +47,10 @@ importers:
         version: 8.18.1(eslint@8.57.1)(typescript@5.7.2)
       '@vitejs/plugin-legacy':
         specifier: ^6.0.0
-        version: 6.0.0(terser@5.37.0)(vite@6.0.4(jiti@1.21.6)(terser@5.37.0)(yaml@2.4.5))
+        version: 6.0.0(terser@5.37.0)(vite@6.0.5(jiti@1.21.6)(terser@5.37.0)(yaml@2.4.5))
       '@vitejs/plugin-react-swc':
         specifier: ^3.7.2
-        version: 3.7.2(vite@6.0.4(jiti@1.21.6)(terser@5.37.0)(yaml@2.4.5))
+        version: 3.7.2(vite@6.0.5(jiti@1.21.6)(terser@5.37.0)(yaml@2.4.5))
       '@vitest/coverage-v8':
         specifier: ^2.1.8
         version: 2.1.8(vitest@2.1.8)
@@ -109,8 +109,8 @@ importers:
         specifier: ^5.7.2
         version: 5.7.2
       vite:
-        specifier: ^6.0.4
-        version: 6.0.4(jiti@1.21.6)(terser@5.37.0)(yaml@2.4.5)
+        specifier: ^6.0.5
+        version: 6.0.5(jiti@1.21.6)(terser@5.37.0)(yaml@2.4.5)
       vitest:
         specifier: ^2.1.8
         version: 2.1.8(@vitest/ui@2.1.8)(jsdom@25.0.1)(terser@5.37.0)
@@ -3035,8 +3035,8 @@ packages:
       terser:
         optional: true
 
-  vite@6.0.4:
-    resolution: {integrity: sha512-zwlH6ar+6o6b4Wp+ydhtIKLrGM/LoqZzcdVmkGAFun0KHTzIzjh+h0kungEx7KJg/PYnC80I4TII9WkjciSR6Q==}
+  vite@6.0.5:
+    resolution: {integrity: sha512-akD5IAH/ID5imgue2DYhzsEwCi0/4VKY31uhMLEYJwPP4TiUp8pL5PIK+Wo7H8qT8JY9i+pVfPydcFPYD1EL7g==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -4396,7 +4396,7 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@vitejs/plugin-legacy@6.0.0(terser@5.37.0)(vite@6.0.4(jiti@1.21.6)(terser@5.37.0)(yaml@2.4.5))':
+  '@vitejs/plugin-legacy@6.0.0(terser@5.37.0)(vite@6.0.5(jiti@1.21.6)(terser@5.37.0)(yaml@2.4.5))':
     dependencies:
       '@babel/core': 7.26.0
       '@babel/preset-env': 7.26.0(@babel/core@7.26.0)
@@ -4407,14 +4407,14 @@ snapshots:
       regenerator-runtime: 0.14.1
       systemjs: 6.15.1
       terser: 5.37.0
-      vite: 6.0.4(jiti@1.21.6)(terser@5.37.0)(yaml@2.4.5)
+      vite: 6.0.5(jiti@1.21.6)(terser@5.37.0)(yaml@2.4.5)
     transitivePeerDependencies:
       - supports-color
 
-  '@vitejs/plugin-react-swc@3.7.2(vite@6.0.4(jiti@1.21.6)(terser@5.37.0)(yaml@2.4.5))':
+  '@vitejs/plugin-react-swc@3.7.2(vite@6.0.5(jiti@1.21.6)(terser@5.37.0)(yaml@2.4.5))':
     dependencies:
       '@swc/core': 1.7.26
-      vite: 6.0.4(jiti@1.21.6)(terser@5.37.0)(yaml@2.4.5)
+      vite: 6.0.5(jiti@1.21.6)(terser@5.37.0)(yaml@2.4.5)
     transitivePeerDependencies:
       - '@swc/helpers'
 
@@ -6305,7 +6305,7 @@ snapshots:
       fsevents: 2.3.3
       terser: 5.37.0
 
-  vite@6.0.4(jiti@1.21.6)(terser@5.37.0)(yaml@2.4.5):
+  vite@6.0.5(jiti@1.21.6)(terser@5.37.0)(yaml@2.4.5):
     dependencies:
       esbuild: 0.24.0
       postcss: 8.4.49
